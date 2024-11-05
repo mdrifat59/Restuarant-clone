@@ -9,6 +9,8 @@ export default {
       fontFamily:{
         "Raleway-Medium":"Raleway-Medium",
         "Roboto-Bold": "Roboto-Bold",
+        "Bebas-Regular": "Bebas-Regular",
+        "Roboto-Regular": "Roboto-Regular",
       }
     },
   },
