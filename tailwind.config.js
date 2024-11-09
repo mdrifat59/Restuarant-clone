@@ -11,6 +11,7 @@ export default {
         "Roboto-Bold": "Roboto-Bold",
         "Bebas-Regular": "Bebas-Regular",
         "Roboto-Regular": "Roboto-Regular",
+        "open_sans-SemiBold":"open_sans-SemiBold",
       }
     },
   },
