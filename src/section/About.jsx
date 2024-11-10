@@ -3,6 +3,7 @@ import Aboutimg from '/public/img/Aboutimg.png'
 import CircularSlider from '@fseehawer/react-circular-slider'
 import { PhoneIcons } from '../svg/Phone'
 import AboutFooter from '../component/AboutFooter'
+import aboutsite from '/public/img/aboutsite.png'
 
 const About = () => {
     let [isvisiable, setIsvisiable] = useState()
@@ -12,7 +13,8 @@ const About = () => {
     return (
         <>
             <section>
-                <div className='w-full h-screen py-32'>
+                <div className='w-full h-screen py-32 relative'>
+                    <div className='absolute bottom-20 right-0'><img src={aboutsite} alt="" /></div>
                     <div className='max-w-container mx-auto ' >
                         <div className='grid grid-cols-2'>
                             <div className='relative'>
