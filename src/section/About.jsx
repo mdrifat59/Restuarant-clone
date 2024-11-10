@@ -2,12 +2,13 @@ import React, { useRef, useState } from 'react'
 import Aboutimg from '/public/img/Aboutimg.png'
 import CircularSlider from '@fseehawer/react-circular-slider'
 import { PhoneIcons } from '../svg/Phone'
+import AboutFooter from '../component/AboutFooter'
 
 const About = () => {
     let [isvisiable, setIsvisiable] = useState()
     let handleAbout = () => setIsvisiable('about')
     let handleExperience = () => setIsvisiable('experience')
-    let handleContact = () => setIsvisiable('contact') 
+    let handleContact = () => setIsvisiable('contact')
     return (
         <>
             <section>
@@ -91,7 +92,7 @@ const About = () => {
 
                             </div>
                         </div>
-                        <div></div>
+                        <AboutFooter />
                     </div>
 
                 </div>
