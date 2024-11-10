@@ -20,6 +20,10 @@
     src: url("/public/fonts/Roboto-Bold.ttf");
 } 
 @font-face {
+    font-family: "Roboto-Medium";
+    src: url("/public/fonts/Roboto-Medium.ttf");
+} 
+@font-face {
     font-family: "open_sans-SemiBold";
     src: url("/public/fonts/OpenSans-SemiBold.ttf");
 } 
