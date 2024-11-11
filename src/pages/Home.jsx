@@ -3,6 +3,7 @@ import Banner from '../section/Banner'
 import About from '../section/About'
 import Food from '../section/Food'
 import Booking from '../section/Booking'
+import Testimonials from '../section/Testimonials'
  
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
        <About />
        <Food/>
        <Booking/>
+       <Testimonials/>
     </>
 
   )
