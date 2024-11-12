@@ -17,7 +17,7 @@ const Testimonials = () => {
         <section>
             <div className="w-full h-screen bg-[#ffffff] relative">
                 <div className="absolute top-44 left-0"><img src={tomato} alt="tomato" /></div>
-                <div className="absolute -bottom-28 right-0"><img src={luiba} alt="luiba" /></div>
+                <div className="absolute bottom-0 right-0"><img src={luiba} alt="luiba" /></div>
                 <div className="max-w-container mx-auto py-32">
                     <div className="flex justify-between items-center">
                         <div>

@@ -36,7 +36,7 @@ const TestimonialSlider = forwardRef((props, ref) => {
         draggable={true}
         showDots={false}
         infinite={true}
-        autoPlay={true}
+        autoPlay={false}
         autoPlaySpeed={3000}
         keyBoardControl={true}
         customTransition="all 0.5s"
@@ -47,11 +47,11 @@ const TestimonialSlider = forwardRef((props, ref) => {
         itemClass="carousel-item-padding-40-px"
       >
         {/* Testimonial Item 1 */}
-        <div className="w-full h-[555px] flex flex-row">
-          <div className='w-full h-[555px] relative bg-[#FEBF00] flex-[3]'>
+        <div className="w-full h-[400px] flex flex-row">
+          <div className='w-full h-[400px] relative bg-[#FEBF00] flex-[3]'>
             <div className='absolute bottom-16 left-0'><LeafIcons /></div>
             <div className='flex h-full justify-center items-center'>
-              <div className='w-[360px] h-[411px] flex flex-col justify-between relative'>
+              <div className='w-[360px] h-[300px] flex flex-col justify-between relative'>
                 <div className='absolute -top-2 -left-6'>
                   <img src={clon} alt="" />
                 </div>
@@ -75,18 +75,18 @@ const TestimonialSlider = forwardRef((props, ref) => {
             </div>
           </div>
           <div className='w-full h-full  flex-[4]'>
-            <div>
-              <img src={video} className='w-full h-full overflow-hidden object-cover' alt="" />
+            <div className='w-full h-full cursor-pointer'>
+              <img src={video} className='w-full h-full   object-cover' alt="" />
             </div>
           </div>
         </div>
 
         {/* Testimonial Item 2 */}
-        <div className="w-full h-[555px] flex flex-row">
-          <div className='w-full h-[555px] relative bg-[#FEBF00] flex-[3]'>
+        <div className="w-full h-[400px] flex flex-row">
+          <div className='w-full h-[400px] relative bg-[#FEBF00] flex-[3]'>
             <div className='absolute bottom-16 left-0'><LeafIcons /></div>
             <div className='flex h-full justify-center items-center'>
-              <div className='w-[360px] h-[411px] flex flex-col justify-between relative'>
+              <div className='w-[360px] h-[300px] flex flex-col justify-between relative'>
                 <div className='absolute -top-2 -left-6'>
                   <img src={clon} alt="" />
                 </div>
@@ -110,18 +110,18 @@ const TestimonialSlider = forwardRef((props, ref) => {
             </div>
           </div>
           <div className='w-full h-full  flex-[4]'>
-            <div>
+            <div className='w-full h-full cursor-pointer'>
               <img src={video} className='w-full h-full overflow-hidden object-cover' alt="" />
             </div>
           </div>
         </div>
 
         {/* Testimonial Item 3 */}
-        <div className="w-full h-[555px] flex flex-row">
-          <div className='w-full h-[555px] relative bg-[#FEBF00] flex-[3]'>
+        <div className="w-full h-[400px] flex flex-row">
+          <div className='w-full h-[400px] relative bg-[#FEBF00] flex-[3]'>
             <div className='absolute bottom-16 left-0'><LeafIcons /></div>
             <div className='flex h-full justify-center items-center'>
-              <div className='w-[360px] h-[411px] flex flex-col justify-between relative'>
+              <div className='w-[360px] h-[300px] flex flex-col justify-between relative'>
                 <div className='absolute -top-2 -left-6'>
                   <img src={clon} alt="" />
                 </div>
@@ -145,7 +145,7 @@ const TestimonialSlider = forwardRef((props, ref) => {
             </div>
           </div>
           <div className='w-full h-full  flex-[4]'>
-            <div>
+            <div className='w-full h-full cursor-pointer'>
               <img src={video} className='w-full h-full overflow-hidden object-cover' alt="" />
             </div>
           </div>
