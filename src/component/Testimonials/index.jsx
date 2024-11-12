@@ -36,7 +36,7 @@ const TestimonialSlider = forwardRef((props, ref) => {
         draggable={true}
         showDots={false}
         infinite={true}
-        autoPlay={false}
+        autoPlay={true}
         autoPlaySpeed={3000}
         keyBoardControl={true}
         customTransition="all 0.5s"
