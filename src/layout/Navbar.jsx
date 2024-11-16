@@ -22,7 +22,7 @@ const Navbar = () => {
   }
   return (
     <>
-      <nav className={`fixed top-0 z-50 w-full ${scrolled ? "bg-gradient-to-r from-[#BD1F17] via-[#a51d13] to-[#8E1B0F]" : "bg-blue-400"}`}>
+      <nav className={`fixed top-0 z-50 w-full ${scrolled ? "bg-gradient-to-r from-[#BD1F17] via-[#a51d13] to-[#8E1B0F]" : "bg-transparent"}`}>
 
         <div className='w-full px-4 xl:max-w-container xl:mx-auto flex justify-between sm:px-6 md:px-8 items-center  xl:grid  xl:grid-cols-[1.3fr,4fr,1fr]  py-5 '>
           <div className=''>

@@ -26,15 +26,4 @@
 @font-face {
     font-family: "open_sans-SemiBold";
     src: url("/public/fonts/OpenSans-SemiBold.ttf");
-} 
-
-.bannerimg{
-    height: 500px;
-    width: 600px;
-}
-@media (min-width:1920px){
-    .bannerimg{
-        width: 700px;
-        height: 649px;
-    }
-}
+}  
