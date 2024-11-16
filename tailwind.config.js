@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        'container': "80%",
+        'container': "1320px",
       }, 
       fontFamily:{
         "Raleway-Medium":"Raleway-Medium",
@@ -15,6 +15,16 @@ export default {
         "Roboto-Medium":"Roboto-Medium",
       }
     },
+    screens: {
+      'xs': '400px',
+      'sm': '576px',
+      'md': '768px',
+      'lg': '992px',
+      'xl': '1200px',
+      '2xl': '1400px',
+      '3xl': '1600px',
+      '4xl': '1920px'
+  },
   },
   plugins: [],
 }
