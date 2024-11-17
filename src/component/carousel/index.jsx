@@ -10,7 +10,7 @@ const CarouselSlider = forwardRef((props, ref) => {
 
     return (
         <>
-            <div className='py-14'>
+            <div className='py-[32px] lg:py-14 '>
 
                 <Carousel
                     ref={ref}
@@ -19,13 +19,15 @@ const CarouselSlider = forwardRef((props, ref) => {
                     autoPlaySpeed={2000}
                     infinite
                     responsive={{
-                        desktop: { breakpoint: { max: 3000, min: 1024 }, items: 4 },
-                        tablet: { breakpoint: { max: 1024, min: 464 }, items: 2 },
+                        desktop: { breakpoint: { max: 3000, min: 1400 }, items: 4 },
+                        sm_desktop: { breakpoint: { max: 1400, min: 1024 }, items: 3 },
+                        tablet: { breakpoint: { max: 1024, min: 700 }, items: 2 },
+                        sm: { breakpoint: { max: 700, min: 464 }, items: 1 },
                         mobile: { breakpoint: { max: 464, min: 0 }, items: 1 }
                     }}
                 >
                     {/* item-1 */}
-                    <div className='w-[306px] h-[300px] bg-[#FFFFFF]'>
+                    <div className='w-full sm:mx-auto sm:w-[306px] 2xl:w-[280px] h-[300px] bg-[#FFFFFF] '>
                         <div className='flex justify-center w-full py-10'>
                             <div className='flex flex-col justify-center items-center'>
                                 <img src={bargur} alt="" />
@@ -38,7 +40,7 @@ const CarouselSlider = forwardRef((props, ref) => {
                     </div>
 
                     {/* item-2 */}
-                    <div className='w-[306px] h-[300px] bg-[#FFFFFF]'>
+                    <div className='w-full sm:mx-auto sm:w-[306px] 2xl:w-[280px] h-[300px] bg-[#FFFFFF]'>
                         <div className='flex justify-center w-full py-10'>
                             <div className='flex flex-col justify-center items-center'>
                                 <img src={pizza} alt="" />
@@ -51,7 +53,7 @@ const CarouselSlider = forwardRef((props, ref) => {
                     </div>
 
                     {/* item-3 */}
-                    <div className='w-[306px] h-[300px] bg-[#FFFFFF]'>
+                    <div className='w-full  sm:mx-auto sm:w-[306px] 2xl:w-[280px] h-[300px] bg-[#FFFFFF]'>
                         <div className='flex justify-center w-full py-10'>
                             <div className='flex flex-col justify-center items-center'>
                                 <img src={frinsfire} alt="" />
@@ -64,7 +66,7 @@ const CarouselSlider = forwardRef((props, ref) => {
                     </div>
 
                     {/* item-4 */}
-                    <div className='w-[306px] h-[300px] bg-[#FFFFFF]'>
+                    <div className='w-full sm:mx-auto sm:w-[306px] 2xl:w-[280px] h-[300px] bg-[#FFFFFF]'>
                         <div className='flex justify-center w-full py-10'>
                             <div className='flex flex-col justify-center items-center'>
                                 <img src={chicken} alt="" />
