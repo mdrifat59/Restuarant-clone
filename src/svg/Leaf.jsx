@@ -1,4 +1,4 @@
-export const LeafIcons = () => {
+export const LeafIcons = ({className}) => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -6,6 +6,7 @@ export const LeafIcons = () => {
             height={78}
             viewBox="0 0 40 78"
             fill="none"
+            className={className}
         >
             <path
                 fillRule="evenodd"
