@@ -12,16 +12,16 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <>
-            <footer className="bg-[url('/public/img/footerbg.jpeg')] h-screen bg-cover w-full relative">
+            <footer className="py-[30px] md:py-[70px] lg:py-[120px] bg-cover w-full relative bg-[url('/public/img/footerbg.jpeg')]">
                 <div className="bg-[#000000] absolute inset-0 opacity-80 z-0"></div>
 
-                <div className="max-w-container mx-auto relative z-10 py-28">
+                <div className="w-full px-4 sm:px-6 md:px-8 lg:max-w-container lg:mx-auto relative z-10 ">
                     <div className="w-full  p-4 flex justify-center">
-                        <h1 className="font-Bebas-Regular text-6xl text-[#FFFFFF]">We’re ready to give you the best dining experience</h1>
+                        <h1 className="font-Bebas-Regular text-center text-[40px] md:text-[50px] lg:text-6xl leading-[50px] md:leading-[72px] text-[#FFFFFF]">We’re ready to give you the best dining experiences</h1>
                     </div>
 
                     <div className="flex ">
-                        <div className="flex flex-col-4 items-center pt-20 w-full">
+                        <div className="grid md:grid-cols-2 2xl:grid-cols-4 md:gap-10  items-center pt-12 lg:pt-20 w-full">
                             <div className="p-4 w-full flex flex-col items-center">
                                 <img src={clock} alt="Clock" />
                                 <h2 className="font-Bebas-Regular text-2xl text-[#FFFFFF] my-4">Opening hours</h2>
@@ -50,22 +50,22 @@ const Footer = () => {
 
                     </div>
 
-                    <div className='flex justify-center items-center gap-10 pt-20'>
-                        <Link className='w-[53.45px] h-[53.45px] rounded-full border border-[#E5E7EB] flex justify-center items-center'>
+                    <div className='flex justify-center items-center gap-4 sm:gap-6 md:gap-8 lg:gap-10 pt-20'>
+                        <Link className='w-9 md:w-11 lg:w-[53.45px] h-9 md:h-11 lg:h-[53.45px] rounded-full border border-[#E5E7EB] flex justify-center items-center'>
                             <img src={facebook} alt="" />
                         </Link>
-                        <Link className='w-[53.45px] h-[53.45px] rounded-full border border-[#E5E7EB] flex justify-center items-center'>
+                        <Link className='w-9 md:w-11 lg:w-[53.45px] h-9 md:h-11 lg:h-[53.45px] rounded-full border border-[#E5E7EB] flex justify-center items-center'>
                             <img src={twitter} alt="" />
                         </Link>
-                        <Link className='w-[53.45px] h-[53.45px] rounded-full border border-[#E5E7EB] flex justify-center items-center'>
+                        <Link className='w-9 md:w-11 lg:w-[53.45px] h-9 md:h-11 lg:h-[53.45px] rounded-full border border-[#E5E7EB] flex justify-center items-center'>
                             <img src={instagram} alt="" />
                         </Link>
-                        <Link className='w-[53.45px] h-[53.45px] rounded-full border border-[#E5E7EB] flex justify-center items-center'>
+                        <Link className='w-9 md:w-11 lg:w-[53.45px] h-9 md:h-11 lg:h-[53.45px] rounded-full border border-[#E5E7EB] flex justify-center items-center'>
                             <img src={linkedin} alt="" />
                         </Link>
                     </div>
-                    <div className='flex justify-center items-center pt-5'>
-                        <p className='font-Roboto-Bold text-[21px] text-[#FFFFFF]'>© 2023 All Rights Reserved </p>
+                    <div className='flex justify-center items-center pt-5 md:pt-10'>
+                        <p className='font-Roboto-Bold text-base md:text-[21px] text-[#FFFFFF]'>© 2023 All Rights Reserved </p>
                     </div>
                 </div>
             </footer>
