@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Aboutimg from '/public/img/Aboutimg.png'
 import CircularSlider from '@fseehawer/react-circular-slider'
 import { PhoneIcons } from '../svg/Phone'
@@ -10,6 +10,34 @@ const About = () => {
     let handleAbout = () => setIsvisiable('about')
     let handleExperience = () => setIsvisiable('experience')
     let handleContact = () => setIsvisiable('contact')
+    let [width, setWidth]=useState(100) 
+
+    useEffect(() => {
+        const updateWidth = () => {
+          const screenWidth = window.innerWidth;
+    
+          if (screenWidth <= 400) {
+            setWidth(50); // For 'xs' 
+          } else if (screenWidth <= 576) {
+            setWidth(60); // For 'sm' 
+          } else if (screenWidth <= 768) {
+            setWidth(80); // For 'md' 
+          } else if (screenWidth <= 992) {
+            setWidth(100); // For 'lg' 
+          } else if (screenWidth <= 1200) {
+            setWidth(120); // For 'xl' 
+          } else {
+            setWidth(140); // For larger screens 
+          }
+        };
+    
+        updateWidth();
+        window.addEventListener('resize', updateWidth); 
+    
+        return () => {
+          window.removeEventListener('resize', updateWidth);
+        };
+      }, []);
     return (
         <>
             <section>
@@ -21,7 +49,7 @@ const About = () => {
                             <div className='relative'>
                                 <img src={Aboutimg} className='sm:w-full lg:h-full' alt="" />
                                 <div className='w-[128px] h-[73px] sm:w-[150px] sm:h-[90px] md:w-[170px] md:h-[120px] lg:w-[241.17px] lg:h-[136.75px]  bg-[#FFFFFF] rounded-lg lg:flex gap-5 p-2 items-center absolute top-5 left-5'>
-                                    <div className='xs:w-[50px] xs:h-[50px] bg-green-400 hidden'>
+                                    <div className='xs:w-[50px] xs:h-[50px]'>
                                         <CircularSlider
                                             labelColor="#181818"
                                             knobColor="#FEBF00"
@@ -32,11 +60,15 @@ const About = () => {
                                             trackSize={5}
                                             data={["50+"]} //...
                                             dataIndex={10}
-                                            width={100}
+                                            // width={50}
+                                            // width={window.innerWidth <= 400 ? 40 : window.innerWidth <= 768 ? 60 : 100}
+                                            // valueFontSize={window.innerWidth <= 400 ? '12px' : window.innerWidth <= 768 ? '16px' : '20px'}
+                                            // labelFontSize={window.innerWidth <= 400 ? '16px' : window.innerWidth <= 768 ? '20px' : '24px'}
+                                            width={width}
                                             valueFontSize='2'
                                             labelFontSize='50'
                                             label=' '
-                                            verticalOffset='center' 
+                                            verticalOffset='center'
                                         />
                                     </div>
                                     <div>
