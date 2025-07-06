@@ -1,7 +1,7 @@
 import React from 'react'
 import { OfferIcons } from '../svg/Offer'
 import { VactorIcons } from '../svg/Vactor'
-import bannerimg from "/public/img/Banner.png"
+import bannerimg from "/img/Banner.png"
 
 const Banner = () => {
     return (

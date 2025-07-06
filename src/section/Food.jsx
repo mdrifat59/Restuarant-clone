@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import foodimg from '/public/img/foodimg.png'
+import foodimg from '/img/foodimg.png'
 import CarouselSlider from '../component/carousel'
 import { LeftArrow, RightArrow } from '../svg/Arrow';
 

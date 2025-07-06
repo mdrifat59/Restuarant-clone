@@ -1,5 +1,5 @@
  import React, { useRef, useState } from 'react';
-import dateimg from '/public/img/dateimg.png';
+import dateimg from '/img/dateimg.png';
 
 const Booking = () => {
     const [date, setDate] = useState('');

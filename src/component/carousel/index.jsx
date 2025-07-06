@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import bargur from '/public/img/bargur.png'
-import chicken from '/public/img/chicken.png'
-import pizza from '/public/img/pizza.png'
-import frinsfire from '/public/img/frinsfire.png'
+import bargur from '/img/bargur.png'
+import chicken from '/img/chicken.png'
+import pizza from '/img/pizza.png'
+import frinsfire from '/img/frinsfire.png'
 
 const CarouselSlider = forwardRef((props, ref) => {
 

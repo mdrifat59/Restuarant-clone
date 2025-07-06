@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import man from '/public/img/man.png'
-import clon from '/public/img/clon.png'
+import man from '/img/man.png'
+import clon from '/img/clon.png'
 import { LeafIcons } from '../../svg/Leaf';
 import video from '/public/img/video.png'
 
