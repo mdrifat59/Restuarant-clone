@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Bargur from '../assets/img/bargur.png'
-import chicken from '../assets/img/chicken.png'
-import pizza from '../assets/img/pizza.png'
-import frinsfire from '../assets/img/frinsfire.png'
+import bargur from './assets/img/bargur.png'
+import chicken from './assets/img/chicken.png'
+import pizza from './assets/img/pizza.png'
+import frinsfire from './assets/img/frinsfire.png'
 
 const CarouselSlider = forwardRef((props, ref) => {
 
@@ -30,7 +30,7 @@ const CarouselSlider = forwardRef((props, ref) => {
                     <div className='w-full sm:mx-auto sm:w-[306px] 2xl:w-[280px] h-[300px] bg-[#FFFFFF] '>
                         <div className='flex justify-center w-full py-10'>
                             <div className='flex flex-col justify-center items-center'>
-                                <img src={Bargur} alt="" />
+                                <img src={bargur} alt="" />
                                 <hr className='w-[57px] border-[3px] border-[#BD1F17] mb-2' />
                                 <h3 className='font-Bebas-Regular text-2xl text-[#0A1425] my-2 '>vegetables burger</h3>
                                 <p className='font-Roboto-Regular text-base text-[#0A1425]'>Barbecue Italian cuisine Burger</p>
