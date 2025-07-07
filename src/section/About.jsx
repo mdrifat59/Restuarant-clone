@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Aboutimg from '/img/aboutimg.png'
+import aboutimg from '/img/aboutimg.png'
 import CircularSlider from '@fseehawer/react-circular-slider'
 import { PhoneIcons } from '../svg/Phone'
 import AboutFooter from '../component/AboutFooter'
@@ -47,7 +47,7 @@ const About = () => {
                     <div className='w-full px-4 sm:px-6 md:px-8 lg:max-w-container lg:mx-auto ' >
                         <div className='grid lg:grid-cols-2 lg:gap-5 2xl:gap-10 3xl:gap-20'>
                             <div className='relative'>
-                                <img src={Aboutimg} className='sm:w-full lg:h-full' alt="" />
+                                <img src={aboutimg} className='sm:w-full lg:h-full' alt="" />
                                 <div className='w-[128px] h-[73px] sm:w-[150px] sm:h-[90px] md:w-[170px] md:h-[120px] lg:w-[241.17px] lg:h-[136.75px]  bg-[#FFFFFF] rounded-lg lg:flex gap-5 p-2 items-center absolute top-5 left-5'>
                                     <div className='xs:w-[50px] xs:h-[50px]'>
                                         <CircularSlider
@@ -59,11 +59,7 @@ const About = () => {
                                             trackColor="#eeeeee"
                                             trackSize={5}
                                             data={["50+"]} //...
-                                            dataIndex={10}
-                                            // width={50}
-                                            // width={window.innerWidth <= 400 ? 40 : window.innerWidth <= 768 ? 60 : 100}
-                                            // valueFontSize={window.innerWidth <= 400 ? '12px' : window.innerWidth <= 768 ? '16px' : '20px'}
-                                            // labelFontSize={window.innerWidth <= 400 ? '16px' : window.innerWidth <= 768 ? '20px' : '24px'}
+                                            dataIndex={10} 
                                             width={width}
                                             valueFontSize='2'
                                             labelFontSize='50'
