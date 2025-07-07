@@ -1,7 +1,7 @@
 import React from 'react'
 import { OfferIcons } from '../svg/Offer'
 import { VactorIcons } from '../svg/Vactor'
-import bannerimg from "/public/img/Banner.png"
+import bannerimg from "/img/Banner.png"
 
 const Banner = () => {
     return (
@@ -20,6 +20,7 @@ const Banner = () => {
                             <VactorIcons />
                         </div>
                         <img src={bannerimg} className='xl:h-[649px] xl:w-[600px] ' alt="" />
+                        {/* <img src="/img/Banner.png" className='xl:h-[649px] xl:w-[600px] ' alt="" /> */}
                         <div className='absolute right-2 2xl:-right-[50px] 2xl:bottom-0 bottom-5 bg-yellow-500 rounded-full p-2'>
                             <OfferIcons className="h-[50px] w-[50px] sm:w-[80px] sm:h-[80px] xl:h-[100px] xl:w-[100px]" />
                         </div>
