@@ -1,12 +1,12 @@
 import React from 'react'
 import { OfferIcons } from '../svg/Offer'
 import { VactorIcons } from '../svg/Vactor'
-import bannerimg from "/img/Banner.png"
+import bannerimg from "/img/banner.png"
 
 const Banner = () => {
     return (
         <>
-            <section className={`bg-[url('/public/img/backgroundimg.png')] pt-[130px] pb-[160px] xl:pt-[130px] xl:pb-[100px] relative w-full`}>
+            <section className={`bg-[url('/img/backgroundimg.png')] pt-[130px] pb-[160px] xl:pt-[130px] xl:pb-[100px] relative w-full`}>
 
                 <div className='bg-gradient-to-r from-[#BD1F17] via-[#a51d13] to-[#8E1B0F] absolute inset-0 opacity-80 '>  </div>
                 <div className='w-full px-4 sm:px-6 md:px-8 lg:max-w-container lg:mx-auto grid  lg:grid-cols-2 items-center'>

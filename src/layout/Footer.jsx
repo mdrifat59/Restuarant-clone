@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <>
-            <footer className="py-[30px] md:py-[70px] lg:py-[120px] bg-cover w-full relative bg-[url('/public/img/footerbg.jpeg')]">
+            <footer className="py-[30px] md:py-[70px] lg:py-[120px] bg-cover w-full relative bg-[url('/img/footerbg.jpeg')]">
                 <div className="bg-[#000000] absolute inset-0 opacity-80 z-0"></div>
 
                 <div className="w-full px-4 sm:px-6 md:px-8 lg:max-w-container lg:mx-auto relative z-10 ">

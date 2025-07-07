@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Aboutimg from '/img/Aboutimg.png'
+import Aboutimg from '/img/aboutimg.png'
 import CircularSlider from '@fseehawer/react-circular-slider'
 import { PhoneIcons } from '../svg/Phone'
 import AboutFooter from '../component/AboutFooter'
