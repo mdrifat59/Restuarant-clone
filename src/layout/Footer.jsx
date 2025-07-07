@@ -1,18 +1,18 @@
 import React from 'react'
-import clock from '/img/clock.png'
-import phone from '/img/phone.png'
-import mail from '/img/mail.png'
-import map from '/img/map-pin.png'
-import facebook from '/img/facebook.png'
-import linkedin from '/img/linkedin.png'
-import instagram from '/img/instagram.png'
-import twitter from '/img/twitter.png'
+import clock from '../assets/img/clock.png'
+import phone from '../assets/img/phone.png'
+import mail from '../assets/img/mail.png'
+import map from '../assets/img/map-pin.png'
+import facebook from '../assets/img/facebook.png'
+import linkedin from '../assets/img/linkedin.png'
+import instagram from '../assets/img/instagram.png'
+import twitter from '../assets/img/twitter.png'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
         <>
-            <footer className="py-[30px] md:py-[70px] lg:py-[120px] bg-cover w-full relative bg-[url('/img/footerbg.jpeg')]">
+            <footer className="py-[30px] md:py-[70px] lg:py-[120px] bg-cover w-full relative bg-[url('../assets/img/footerbg.jpeg')]">
                 <div className="bg-[#000000] absolute inset-0 opacity-80 z-0"></div>
 
                 <div className="w-full px-4 sm:px-6 md:px-8 lg:max-w-container lg:mx-auto relative z-10 ">

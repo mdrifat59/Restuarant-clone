@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import man from '/img/man.png'
-import clon from '/img/clon.png'
+import man from '../assets/img/man.png'
+import clon from '../assets/img/clon.png'
 import { LeafIcons } from '../../svg/Leaf';
-import video from '/img/video.png'
+import video from '../assets/img/video.png'
 
 const TestimonialSlider = forwardRef((props, ref) => {
    

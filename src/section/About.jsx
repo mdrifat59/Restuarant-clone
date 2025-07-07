@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
-import aboutimg from '/img/aboutimg.png'
+import aboutimg from '../assets/img/aboutimg.png'
 import CircularSlider from '@fseehawer/react-circular-slider'
 import { PhoneIcons } from '../svg/Phone'
 import AboutFooter from '../component/AboutFooter'
-import aboutsite from '/img/aboutsite.png'
+import aboutsite from '../assets/img/aboutsite.png'
 
 const About = () => {
     let [isvisiable, setIsvisiable] = useState()

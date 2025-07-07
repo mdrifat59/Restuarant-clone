@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import tomato from '/img/tomato.png';
-import luiba from '/img/luiba.png';
+import tomato from '../assets/img/tomato.png';
+import luiba from '../assets/img/luiba.png';
 import { LeftArrow, RightArrow } from '../svg/Arrow';
 import TestimonialSlider from '../component/Testimonials';
 
