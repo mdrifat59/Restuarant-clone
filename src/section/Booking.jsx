@@ -13,7 +13,7 @@ const Booking = () => {
     return (
         <>
             <section>
-                <div className={`w-full py-[30px] sm:py-[50px] md:py-[70px] lg:pt-[120px] lg:pb-[86px] bg-[url('../assets/img/bookingImg.jpeg')] bg-cover `}>
+                <div className={`w-full py-[30px] sm:py-[50px] md:py-[70px] lg:pt-[120px] lg:pb-[86px] bg-[url('./assets/img/bookingImg.jpeg')] bg-cover `}>
                     <div className='w-full px-4 sm:px-6 md:px-8 lg:max-w-container lg:mx-auto md:flex flex-col-2'>
                         <div className='w-full h-full'>
                             <div className='flex items-center gap-3'>
